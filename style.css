@@ -1,0 +1,196 @@
+
+:root {
+    --navColor: rgb(19, 19, 121);
+    --hoverColor: red ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#menuitem1 {
+    text-decoration: none;
+    color: var(--navColor);
+    padding: 25px;
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+    font-weight: bold;
+    float: left;
+    position: relative;
+}
+#menuitem2 {
+    text-decoration: none;
+    color: var(--navColor);
+    padding: 25px;
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+    font-weight: bold;
+}
+#menuitem3 {
+    text-decoration: none;
+    color: var(--navColor);
+    padding: 25px;
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+    font-weight: bold
+}
+#menuitem4 {
+    text-decoration: none;
+    color: var(--navColor);
+    padding: 25px;
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+    font-weight: bold;
+}
+#menuitem5 {
+    text-decoration: none;
+    color: var(--navColor);
+    padding: 25px;
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+    font-weight: bold;
+}
+#menuitem6 {
+    text-decoration: none;
+    color: var(--navColor);
+    padding: 25px;
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+    font-weight: bold;
+}
+#menuitem7 {
+    text-decoration: none;
+    color: var(--navColor);
+    padding: 25px;
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+    font-weight: bold;;
+}
+/* images */
+#images {
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    left: 270px;
+    margin: 30px;
+    right: auto;
+    z-index: 3;
+}
+#images:hover{
+    color: rgba(255,255,255,1);
+    opacity: 1;
+}
+#menuitem1:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding: 25px;
+    position: relative;
+    transition: 0.25s ease;
+}
+#menuitem2:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding: 25px;
+    width: auto;
+}
+#menuitem3:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding: 25px;
+    width: auto;
+}
+#menuitem4:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding: 25px;
+    width: auto;
+}
+#menuitem5:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding: 25px;
+    width: auto;
+}
+#menuitem6:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding: 25px;
+    width: auto;
+}
+#menuitem7:hover{
+    color: var(--hoverColor);
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding: 25px;
+    width: auto;
+}
+h1{
+    text-transform: uppercase;
+    color: darkred;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+}
+h2 {
+    text-transform: uppercase;
+    color: var(--navColor);
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#staff-images {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+#text-medical {
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    left: 0;
+    right: 0;
+    font-family: 'Arial Black', Arial, sans-serif !important;
+}
+#h1 {
+    color: var(--navColor);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#h2{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+#offer-img {
+    left: 200px;
+    top: 300px;
+}
